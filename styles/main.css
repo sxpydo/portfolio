@@ -169,7 +169,6 @@
   
     .flexible-layout {
       display: grid;
-      /*grid-template-columns: auto 500px;*/
       grid-template-columns: 2fr 1fr;
       grid-template-rows: 1fr;
       row-gap: 20px;

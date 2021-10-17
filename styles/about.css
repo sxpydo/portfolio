@@ -89,7 +89,21 @@
     
 /* ABOUT SECTION */
 
+.flexible-layout {
+  padding: 50px;
+  text-align: center;
+}
 
+img {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.grid-layout {
+  padding: 50px;
+  text-align: left;
+}
 
     
 
@@ -135,14 +149,21 @@
   
     .flexible-layout {
       display: grid;
-      /*grid-template-columns: auto 500px;*/
       grid-template-columns: 2fr 1fr;
       grid-template-rows: 1fr;
       row-gap: 20px;
       align-items: center; 
     }
+
+    .grid-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      gap: 10px;
+      align-items: center;
+    }
   
-    .about-me {
+    .about-section {
       justify-content: center;
       width: 80%;
     }
