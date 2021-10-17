@@ -195,6 +195,7 @@
 
     .home-btn {
       display: block;
+      float: right;
     }
     
     .nav-list{
