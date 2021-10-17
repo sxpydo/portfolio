@@ -101,11 +101,7 @@ img {
 }
 
 .grid-layout {
-  display: grid;
-  grid-template-columns: auto 500px;
-  grid-template-rows: 1fr 1fr;
-  gap: 10px;
-  align-items: center;
+  padding: 50px;
   text-align: left;
 }
 
@@ -154,14 +150,21 @@ img {
   
     .flexible-layout {
       display: grid;
-      /*grid-template-columns: auto 500px;*/
       grid-template-columns: 2fr 1fr;
       grid-template-rows: 1fr;
       row-gap: 20px;
       align-items: center; 
     }
+
+    .grid-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      gap: 10px;
+      align-items: center;
+    }
   
-    .about-me {
+    .about-section {
       justify-content: center;
       width: 80%;
     }
