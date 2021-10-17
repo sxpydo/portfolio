@@ -100,6 +100,15 @@ img {
   max-width: 500px;
 }
 
+.grid-layout {
+  display: grid;
+  grid-template-columns: auto 500px;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+}
+
 
     
 
