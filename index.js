@@ -54,3 +54,10 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #7FA99B}";
     document.body.appendChild(css);
 };
+
+
+// MENU BUTTON
+
+function crissCross(x) {
+    x.classList.toggle("change");
+  }
