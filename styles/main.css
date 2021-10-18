@@ -70,10 +70,6 @@
     padding: 30px 20px;
    }
 
-   .home-btn {
-    display: none;
-  }
-
    .nav-list {
      float: right;
    }
@@ -194,12 +190,14 @@
     }
 
     .home-btn {
-      display: block;
-      float: right;
+        display: block;
+        font-size: 30px;
+        color: #000000;
+        cursor: pointer;
+        float: right;
     }
     
     .nav-list{
       float: none;
     } 
-
   }
