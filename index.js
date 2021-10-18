@@ -60,4 +60,10 @@ window.onload = function() {
 
 function crissCross(x) {
     x.classList.toggle("change");
+    let navlist = document.getElementById("navlist");
+    if (navlist.style.display === "block") {
+      navlist.style.display = "none";
+    } else {
+      navlist.style.display = "block";
+    }
   }
