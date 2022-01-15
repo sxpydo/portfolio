@@ -54,3 +54,16 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #7FA99B}";
     document.body.appendChild(css);
 };
+
+
+// MENU BUTTON
+
+function crissCross(x) {
+    x.classList.toggle("change");
+    let navlist = document.getElementById("navlist");
+    if (navlist.style.display === "block") {
+      navlist.style.display = "none";
+    } else {
+      navlist.style.display = "block";
+    }
+  }
