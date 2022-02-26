@@ -22,7 +22,11 @@
 /***********************************************************************************************************/
  
  *, ::after, ::before {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
   }
 
   body {
@@ -40,7 +44,7 @@
       font-family: 'Abril Fatface', Fallback, serif;
       font-size: 46px;
       margin: 0, auto;
-      padding: 15px;
+      padding: 20px;
     }
   
   p {
@@ -100,6 +104,11 @@
 
 /* PROJECTS SECTION */
 
+  h3 {
+      font-size: 20px;
+      font-family: 'Abril Fatface', Fallback, serif;
+    }
+
   .flex-container {
       display: flex;
       flex-flow: row wrap;
@@ -110,16 +119,26 @@
     }
       
   .flex-item {
-      background-color: #7FA99B;
-      width: 200px;
-      height: 150px;
-      margin: 15px;
-      line-height: 150px;
-      color: #FFFFFF;
-      font-weight: bold;
-      font-size: 15px;
+      width: calc(33% - 20px);
+      height: 543px;
+      background: #a3bfac;
       text-align: center;
+      border-radius: 6px;
+      padding: 20px 25px;
+      cursor: pointer;
+      transition: all 0.3s ease;
     }
+
+  .info {
+      text-align: justify;
+      font-size: 15px;
+    }
+
+  .project-links, .info {
+      margin-bottom: 1.5rem;
+      letter-spacing: normal;
+  }
+
 
 
 

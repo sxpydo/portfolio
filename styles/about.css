@@ -23,6 +23,7 @@
  
  *, ::after, ::before {
   box-sizing: border-box;
+  margin: 0;
   }
 
   body {
@@ -40,7 +41,7 @@
       font-family: 'Abril Fatface', Fallback, serif;
       font-size: 60px;
       margin: 0, auto;
-      padding: 15px;
+      padding: 40px;
     }
   
   p {
@@ -103,6 +104,12 @@ img {
 .grid-layout {
   padding: 50px;
   text-align: left;
+}
+
+.code-icons {
+  width: 85px;
+  height: auto;
+  padding: 20px, 10px;
 }
 
     
