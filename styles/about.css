@@ -96,9 +96,9 @@
 }
 
 img {
-  border-radius: 8px;
-  width: 100%;
-  max-width: 500px;
+  border-radius: 50%;
+  width: auto;
+  max-width: auto;
 }
 
 .grid-layout {
@@ -106,13 +106,23 @@ img {
   text-align: left;
 }
 
-.code-icons {
-  width: 85px;
-  height: auto;
-  padding: 20px, 10px;
+.skills-list{
+  margin: 20px;
+  text-align: left;
+  font-size: 16px;
+  padding: 40px;
 }
 
-    
+.skill-chip {
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem 0.5rem 0;
+  font-size: .875rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  background-color: #7FA99B;
+}
 
 /* CONTACT SECTION */
 
